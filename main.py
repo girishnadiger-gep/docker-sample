@@ -5,6 +5,7 @@ import json
 
 app = Flask(__name__)
 #Added this comment
+# added another comment
 @app.route('/', methods=['GET', 'POST'])
 def generate_date():
     content = request.json
